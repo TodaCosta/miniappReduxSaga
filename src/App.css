@@ -1,7 +1,24 @@
 .App {
   text-align: center;
 }
+div {
+  align-items: center;
+  color: rgb(40, 20, 64);
+}
 
+div.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5em;
+  font-size: 40px;
+}
+
+button {
+  margin: 1em;
+  padding: 1em;
+  background: linear-gradient(rgb(254, 254, 190), rgb(255, 203, 233));
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
